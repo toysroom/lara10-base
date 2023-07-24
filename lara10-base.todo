@@ -1,0 +1,35 @@
+INSTALLAZIONE:
+    ☐ composer create-project laravel/laravel lara10-base
+    ☐ cd lara10-base
+    ☐ php artisan serve
+
+COLLEGARE DB MYSQL:
+    ☐ creare database (map, xampp, docker)
+    ☐ configurare il .env
+
+// 
+GET
+POST
+PUT/PATCH
+DELETE
+CRUD (CREATE, READ, UPDATE, DELETE):
+    ☐ users
+    ☐ category
+    ☐ product
+    ☐ orders
+
+// https://laravel.com/docs/10.x/migrations
+CREAZIONE CATEGORY:
+    ☐ creare il model Category + migration (m) + seeders (s) + factory (f)
+    ☐ php artisan make:model Category -msf
+    ☐ scrivo la migrations delle categorie
+    ☐ php artisan migrate
+
+    ☐ php artisan db:seed --class=CategorySeeder
+
+
+
+    ☐ php artisan make:controller CategoryController
+M /App/Models
+V /resources/views/....
+C
